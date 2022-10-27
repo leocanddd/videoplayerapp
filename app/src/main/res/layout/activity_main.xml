@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/layoututama">
+
+    <TextView
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:text="Short Video Player and Library"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/foto1"
+        android:layout_width="179dp"
+        android:layout_height="288dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/levi3">
+    </ImageView>
+
+<!--    //Button untuk melihat profil dari orang yang membuat aplikasi ini-->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:layout_marginLeft="125dp"
+        android:onClick="goProfile" />
+
+<!--    //Button untuk melihat semua list short video yang ada-->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/library" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">uts_44308_LeoCandraSeldi</string>
+    <string name="show_custom_dialog">Show Custom Dialog</string>
+    <string name="login">Login Page</string>
+    <string name="cancel">Cancel</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="valid">Valid</string>
+    <string name="invalid">Name must be entered</string>
+    <string name="title"></string>
+    <string name="programming_languages">Tes</string>
+    <string name="hapus">Yes, Confirm deletion.</string>
+    <string name="gajadihapus">No, stay</string>
+    <string name="reference"><u>stackoverflow.com</u></string>
+    <string name="profile">Profile</string>
+    <string name="library">Library</string>
+    <string name="kelas">IF - 570 - AL</string>
+    <string name="videodesk">Video Description :</string>
+    <string name="resource">Resource Video :</string>
+    <string name="youtube"> •Youtube</string>
+    <string name="tekslogin">Login</string>
+    <string name="pertanyaan">Are you sure you want to delete current item ? Once deleted, it cannot be recovered.</string>
+</resources>
